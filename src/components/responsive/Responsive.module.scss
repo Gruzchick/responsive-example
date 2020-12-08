@@ -3,20 +3,20 @@
 .wrapper {
   border: 5px solid blue;
   text-align: center;
-  @include up(xl) {
+  @include up($xl) {
     border-color: green;
   }
-  @include up(xxl) {
+  @include up($xxl) {
     border-color: red;
   }
 }
 
 .title {
   font-size: 18px;
-  @include up(xl) {
+  @include up($xl) {
     font-size: 26px;
   }
-  @include up(xxl) {
+  @include up($xxl) {
     font-size: 40px;
   }
 }
